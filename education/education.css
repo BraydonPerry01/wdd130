@@ -1,0 +1,17 @@
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+    background-color: pink;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100px;
+  }
+#background {
+    height: 500px;
+    max-width: 1500px;
+  }
