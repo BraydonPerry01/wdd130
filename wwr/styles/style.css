@@ -1,13 +1,16 @@
 body {
     max-width: 1600px;
     margin: 0 auto;
-    text-align: center;
     background-color: whitesmoke;
   }
 header {
     background-color: #f6cbad;
 }
 .icon {
+    width: 80px;
+    height: 80px;
+}
+.logo {
     width: 80px;
 }
 nav a {
@@ -45,7 +48,7 @@ main section{
     background-color: #357085;
 }
 .msg h2 {
-    color:#357085 ;
+    color:#f0fafb ;
 }
 .msg p {
     color: #f0fafb;
