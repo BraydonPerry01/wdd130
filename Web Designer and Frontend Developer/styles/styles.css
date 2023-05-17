@@ -1,0 +1,15 @@
+title {
+    width: 100%;
+}
+.icon {
+    width: 250px;
+    height: 250px;
+    border: 15px solid #3e3e3e;
+    border-radius: 150px;
+}
+.home-grid {
+    color: grey;
+}
+body {
+    background-color: gray;
+}
