@@ -1,22 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@1,600&family=Roboto:ital@1&family=Ysabeau&display=swap');
+
+:root {
+ 
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Advent Pro", "Roboto", sans-serif;
+    --body-font: Ysabeau, Helvetica, sans-serif;
+  
+  }
 body {
+    background-color: whitesmoke;
+    font-family: var(--body-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+  }
+content {
     max-width: 1600px;
     margin: 0 auto;
-    background-color: whitesmoke;
-  }
+}
+.home-title {
+    font-family: var(--heading-font);
+    font-size: 2em;
+}
 header {
     background-color: #f6cbad;
+    font-family: var(--heading-font);
 }
 .icon {
     width: 80px;
     height: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
 }
 nav a {
     text-align: center;
     color: #357085;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #357085 ;
@@ -31,6 +57,9 @@ nav a:hover {
 main section{
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
     background-color: #357085; 
@@ -39,6 +68,10 @@ main section{
     background-color: #357085 ;
     color: #f0fafb;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #f6cbad ;
@@ -46,17 +79,24 @@ main section{
 }
 .msg {
     background-color: #357085;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color:#f0fafb ;
+    font-family: var(--heading-font);
 }
 .msg p {
     color: #f0fafb;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer{
     background-color: #f6cbad;
     color: #357085;
     font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: #357085;
@@ -66,9 +106,22 @@ footer a:hover {
     color: #357085;
     text-decoration: underline;
 }
+footer .social img {
+    padding-top: 15px;
+}
 .home-title {
     color: #357085;
+    margin-top: 10px;
 }
 h4 {
     color: #357085;
+}
+h2 {
+    margin: 0;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #ed7e33;
 }
