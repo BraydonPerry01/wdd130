@@ -105,6 +105,8 @@
   display: grid;
   grid-template-columns: [first] 100px [line2] 100px [end];
   grid-template-rows: [row1-start] 100px [row1-end] 100px [third-line] 100px [last-line];
+  width: 600px;
+  height: 300px;
 }
 .red4 {
   width: 300px; 
