@@ -103,14 +103,13 @@
 .content4 {
   /* This is the parent of the activity 4 boxes. */
   display: grid;
-  grid-template-columns: [first] 50px [line2] 50px [line3] 50px [end];
-  grid-template-rows: [row1-start] 50px [row1-end] 50px [third-line] 50px [last-line];
+  grid-template-columns: [first] 100px [line2] 100px [end];
+  grid-template-rows: [row1-start] 100px [row1-end] 100px [third-line] 100px [last-line];
 }
 .red4 {
   width: 300px; 
   height: 300px; 
   background-color: red;
-  grid-column: 1/ span 2;
   grid-row: row1-start / last-line; 
 } 
 .green4 {
@@ -125,7 +124,7 @@
   height: 100px; 
   background-color: gold;
   grid-column: 100/ span 2;
-  grid-row: third-line / last-line;
+  grid-row: row1-end / third-line;
 
 } 
 .blue4 {
@@ -133,7 +132,7 @@
   height: 100px; 
   background-color: blue;
   grid-column: 100 / span 2;
-  grid-row: last-line;
+  grid-row: third-line / last-line;
 } 
 /* Activity 5 styles */ 
 .content5 {
